@@ -29,6 +29,8 @@ $routes->delete('/delete/(:num)','MahasiswaController::delete/$1');
 $routes->get('/index','Pages::index');
 $routes->get('/(:any)','Pages::view/$1');
 
+$routes->get('/(:any)','Pages::view/$1');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
