@@ -14,28 +14,35 @@ class Mahasiswa extends Seeder
             ['npm' => '2017051013',
             'nama'    => 'Nur Setiowati',
             'alamat'    => 'Tanggamus',
+            'desripsi' => 'Anak Rumahan Pecinta Seblak',
             'created_at'    => Time::now(),
         
         ],
-            ['npm' => '2017051014',
+            [
+                'npm' => '2017051014',
                 'nama'    => 'Saddam ',
                 'alamat'    => ' lampung',
+                'desripsi' => 'Rajin',
                 'created_at'    => Time::now(),
             
             ],
             
-            ['npm' => '2017051074',
+            [
+                
+            'npm' => '2017051074',
             'nama'    => 'Dwi Kurniawan',
             'alamat'    => 'bandarlampung',
+            'desripsi' => 'Rajin',
             'created_at'    => Time::now(),
         
         ],
 
-            ['npm' => '2017051053',
+            [
+            'npm' => '2017051053',
             'nama'    => 'Rendi Luthfi',
             'alamat'    => 'lamteng',
+            'desripsi' => 'Rajin',
             'created_at'    => Time::now(),
-        
         ],
 
         ];
